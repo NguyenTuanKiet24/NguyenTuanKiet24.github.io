@@ -1,0 +1,125 @@
+body{
+  padding: 0px;
+  margin: 0px;
+}
+.row{
+  background-color: white;
+}
+.nav{
+  /*border-right: solid grey 1px !important;*/
+  color: grey !important;
+}
+.navbar-nav .active{
+  background-color: yellow;
+}
+.row{
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: 0px;
+  margin-left: 0px;
+}
+.col-md-9{
+  border-right: 0px;
+  border: 15px;
+}
+.row .col-md-3 img{
+  border-radius: 15px;
+  height: 80%;
+  float: right;
+  text-decoration: none;
+}
+.col-md-12 .pagination ul{
+  margin: center;
+}
+ul{
+  height: 15px;
+  margin: center;
+  text-transform: capitalize;
+  list-style: none;
+  padding-left: 3.5em
+}
+
+.container {
+  width: 500px;
+  margin: auto;
+  text-align: center;
+}
+.pagination {
+  width: 400px;
+  margin-left: 50px;
+}
+.pagination a {
+  display: block;
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color .3s;
+}
+ 
+.pagination a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+ 
+.pagination a:hover:not(.active) {
+  background-color: #ddd;
+}
+.footer-content{
+  display: flex;
+  background: black;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+.footer-content h3{
+  font-size: 1.8rem;
+  font-weight: 300vh;
+  text-transform: capitalize;
+  line-height: 3rem;
+  color: white;
+}
+.footer-content p{
+  min-width: 400px;
+  margin: 10px auto;
+  line-height: 28px;
+  font-size: 14px;
+  color: white;
+}
+.socials{
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.socials li{
+  margin: 0 10px;
+}
+.socials a{
+  text-decoration: none;
+  color: #fff;
+}
+.socials a i{
+  font-size: 1.1rem;
+  transition: color .4s ease;
+}
+.socials a:hover{
+  color: aqua;
+}
+.footer-bottom{
+  background:#000;
+  padding: 20px 0;
+  text-align: center;
+}
+.footer-bottom p{
+  font-size: 14px;
+  word-spacing: 2px;
+  text-transform: capitalize;
+  color: white;
+}
+.footer-bottom span{
+  text-transform: uppercase;
+  opacity: .4;
+  font-weight: 200;
+}
